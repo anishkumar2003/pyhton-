@@ -1,0 +1,5 @@
+a=open("dict.py","r+")
+a.write("kya hal \n")
+b=a.read()
+print(b)
+a.close()
